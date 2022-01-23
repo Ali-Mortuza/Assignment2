@@ -54,11 +54,24 @@ body{
 hr{width: 80%;
     margin-left: 120px;}
 
+/* .second-section{
+    width: 80%;
+    margin-left: 120px;
+} */
+
+.popular{
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 37%;
+}
 .second-section{
     width: 80%;
     margin-left: 120px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    grid-gap:30px;
 }
-
 .button{
     padding: 10px 24px;
     color: white;
@@ -69,15 +82,6 @@ hr{width: 80%;
     font-size: 16px;
 }
 
-.join-button{
-    padding: 10px 24px;
-    color: white;
-    background-color: #E02C6D;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-
-}
 .item{
     height: 476px;
     width: 329px;
@@ -88,12 +92,7 @@ hr{width: 80%;
     height: 256px;
     width: 300px;
 }
-.second-section{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-between;
-    grid-gap:30px;
-}
+
 .item div{
     padding:15px;
 }
@@ -118,7 +117,7 @@ hr{width: 80%;
 item p{
     font-family: 'Inter', sans-serif;
 }
-#another-button{
+#side-button{
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
@@ -126,11 +125,7 @@ item p{
     width: 80%;
     margin-left:83%;
 }
-.popular{
-    font-size: 28px;
-    font-weight: 600;
-    margin-left: 37%;
-}
+
 
 .featured-section{
     display: grid;
@@ -162,6 +157,14 @@ item p{
 
 .featured-section-blog{
     margin-top: 40px;
+}
+.join-button{
+    padding: 10px 24px;
+    color: white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .last{
@@ -235,7 +238,7 @@ item p{
     }
 
    
-    #another-button{
+    #side-button{
         margin-left: 20%;
     }
 }
